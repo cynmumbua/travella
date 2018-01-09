@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_review"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write Review"
+        android:textSize="18sp"
+        android:layout_margin="16dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_edit_text"
+        android:hint="Type here"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:drawableEnd="@drawable/ic_menu_send"
+        android:drawableRight="@drawable/ic_menu_send"
+        android:textSize="18sp"
+        android:fontFamily="@font/varela_round"
+        />
+
+</LinearLayout>

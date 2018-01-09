@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="First Name"
+        android:key="user_name"
+        android:summary="Enter your first name"
+        />
+    <EditTextPreference
+        android:title="Mobile Number"
+        android:key="phone_no"
+        android:summary="0724******"
+        />
+    <EditTextPreference
+        android:title="Email Address"
+        android:key="email"
+        android:summary="janedoe@trial.com"/>
+    <CheckBoxPreference
+        android:key="login"
+        android:summary="keep me logged in"
+        android:defaultValue="true"
+        />
+
+
+
+</PreferenceScreen>
