@@ -3,6 +3,7 @@ package ke.co.travella;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.support.design.widget.NavigationView;
@@ -117,6 +118,8 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent intent = new Intent(this, SettingsActivity.class);
+            startActivity(intent);
             return true;
         }
 
@@ -129,14 +132,21 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_login) {
             // Handle the camera action
+            Intent intent = new Intent(this, LoginActivity.class);
+            startActivity(intent);
+            return true;
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_settings) {
+            Intent intent = new Intent(this, SettingsActivity.class);
+            startActivity(intent);
+            return true;
 
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
+
 
 }

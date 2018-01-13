@@ -37,8 +37,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
     //add library
     compile 'com.craftman.cardform:cardform:0.0.2'
-    compile 'com.android.support:design:26.+'
+    compile 'com.android.support:design:26.1.0'
     compile 'com.github.rubensousa:bottomsheetbuilder:1.6.0'
+    compile 'com.android.support:preference-v7:26.1.0'
 
 
 }

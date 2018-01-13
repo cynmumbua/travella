@@ -327,6 +327,16 @@
         android:scaleType="centerCrop"
         android:background="?attr/selectableItemBackgroundBorderless"/>
 
+    <TextView
+        android:id="@+id/price_text_view"
+        android:layout_width="237dp"
+        android:layout_height="15dp"
+        android:layout_margin="16dp"
+        android:text="No done booking yet"
+        app:layout_constraintBottom_toTopOf="@id/rl_action_book_now"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="297dp" />
+
     <RelativeLayout
         android:id="@+id/rl_action_book_now"
         android:layout_height="48dp"

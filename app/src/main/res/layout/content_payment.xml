@@ -22,6 +22,7 @@
         android:layout_margin="16dp"
         android:text="m-pesa"
         android:textAllCaps="true"
+        android:fontFamily="#000000"
         android:textSize="18sp" />
 
     <Button
@@ -39,7 +40,8 @@
         android:layout_margin="16dp"
         android:text="credit cards"
         android:textAllCaps="true"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:fontFamily="#000000"/>
 
     <Button
         android:id="@+id/visa"

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <EditTextPreference
         android:title="First Name"
         android:key="user_name"
@@ -19,7 +20,4 @@
         android:summary="keep me logged in"
         android:defaultValue="true"
         />
-
-
-
 </PreferenceScreen>

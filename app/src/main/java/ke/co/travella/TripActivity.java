@@ -36,6 +36,7 @@ public class TripActivity extends AppCompatActivity {
     TextView textViewDepature;
     @BindView(R.id.rl_action_book_now)
     RelativeLayout rlActionBookNow;
+    int quantity = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,9 +81,14 @@ public class TripActivity extends AppCompatActivity {
         imageButton.setImageResource(R.drawable.booking_seat);
     }
     @OnClick(R.id.rl_action_book_now)
-    public void bookNow(View view){
+    public void bookNow(View view) {
         Intent intent = new Intent(this, Main2Activity.class);
         startActivity(intent);
     }
-
+    /**
+   private void submit(View view){
+        int price = (quantity* 1200);
+        String priceMessage = "Total: kshs" + price +" for" + quantity + "seats";
+        displayMessage(priceMessage);
+   }**/
 }
